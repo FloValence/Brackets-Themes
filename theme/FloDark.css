@@ -8,6 +8,12 @@
 span.CodeMirror-matchhighlight { background: #494949 }
 .CodeMirror-focused span.CodeMirror-matchhighlight { background: #C3DCFF !important; }
 
+/*<!--search-->*/
+.CodeMirror-searching {
+background-color: rgba(99, 99, 99, 0.7);
+border: 1px dotted #202325;
+}
+
 /*<!--activeline-->*/
 .CodeMirror-activeline, .activeline {background: #202325 !important;}
 .CodeMirror-focused .CodeMirror-activeline-background{background: #202325 !important;}
