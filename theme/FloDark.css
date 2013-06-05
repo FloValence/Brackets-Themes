@@ -41,12 +41,15 @@ border: 1px dotted #202325;
 .cm-s-FloDark span.cm-qualifier {color: #f5d055;}
 .cm-s-FloDark span.cm-builtin {color: #FF9358;}
 
-.cm-s-FloDark span.cm-property {color: #A6E22E;} 
+.cm-s-FloDark span.cm-operator {color: #FF9358;}
+.cm-s-FloDark span.cm-punctuation {color: #a0cae6;}
+
+.cm-s-FloDark span.cm-property {color: #A6E22E;}
 .cm-s-FloDark span.cm-attribute {color: #A6E22E;}
 .cm-s-FloDark span.cm-keyword {color: #43A8ED;}
 .cm-s-FloDark span.cm-string {color: #049B0A;}
 .cm-s-FloDark span.cm-string-2 {color: #a0cae6;}
-.cm-s-FloDark span.cm-property.cm-string {color: #a0cae6;} 
+.cm-s-FloDark span.cm-property.cm-string {color: #a0cae6;}
 
 .cm-s-FloDark span.cm-variable {color: #f5d055;}
 .cm-s-FloDark span.cm-variable-2 {color: #EDEF7D;}
