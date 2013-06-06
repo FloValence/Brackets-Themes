@@ -10,8 +10,9 @@ span.CodeMirror-matchhighlight { background: #494949 }
 
 /*<!--search-->*/
 .CodeMirror-searching {
-background-color: rgba(99, 99, 99, 0.7);
-border: 1px dotted #202325;
+background-color: #486f7c;
+ /* rgba(99, 99, 99, 0.7);*/
+/*border: 1px dotted #202325;*/
 }
 
 /*<!--activeline-->*/
@@ -49,7 +50,7 @@ border: 1px dotted #202325;
 =======
 .cm-s-FloDark span.cm-punctuation {color: #D1EDFF;}
 
-.cm-s-FloDark span.cm-property {color: #A6E22E;} 
+.cm-s-FloDark span.cm-property {color: #A6E22E;}
 >>>>>>> c792398525200a87b37ceff326274d1e3332d28b
 .cm-s-FloDark span.cm-attribute {color: #A6E22E;}
 .cm-s-FloDark span.cm-keyword {color: #43A8ED;}
