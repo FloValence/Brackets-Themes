@@ -8,6 +8,10 @@
 span.CodeMirror-matchhighlight { background: #494949 }
 .CodeMirror-focused span.CodeMirror-matchhighlight { background: #C3DCFF !important; }
 
+.cm-s-FloDark  .matchHtmlTag{
+	background-color: #486f7c;
+}
+
 /*<!--search-->*/
 .CodeMirror-searching {
 background-color: #486f7c;
