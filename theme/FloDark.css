@@ -1,4 +1,4 @@
-/* Based on the Espresso Libre Theme, compiled and remixed by Florian Valence */
+/* by Florian Valence */
 
 /*<!--breakpoint-->*/
 .breakpoints {width: .8em;}
@@ -24,13 +24,10 @@ background-color: #486f7c;
 .CodeMirror-focused .CodeMirror-activeline-background{background: #202325 !important;}
 .cm-s-FloDark .CodeMirror-activeline .CodeMirror-linenumber {background: #202325 !important;}
 
-
 .cm-s-FloDark.CodeMirror {
     background: #26292C;
     color: #BBBCBD;
 }
-
-.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black;}
 
 .cm-s-FloDark div.CodeMirror-selected {background: rgba(195, 220, 255, 0.30) !important;}
 .cm-s-FloDark .CodeMirror-gutters {background: #26292C; border-right: none;}
