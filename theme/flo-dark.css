@@ -1,0 +1,130 @@
+/* by Florian Valence */
+
+/*<!--breakpoint-->*/
+.cm-s-flo-dark.CodeMirror .breakpoints {width: .8em;}
+.cm-s-flo-dark.CodeMirror .breakpoint { color: #822; }
+
+/*<!--match-->*/
+.cm-s-flo-dark.CodeMirror .CodeMirror-matchhighlight { background: #494949 }
+.cm-s-flo-dark.CodeMirror .cm-s-flo-dark .CodeMirror-focused .CodeMirror-matchhighlight { background: #C3DCFF !important; }
+.CodeMirror.cm-s-flo-dark .CodeMirror-matchingtag,
+.CodeMirror.cm-s-flo-dark .CodeMirror-matchingtag.cm-tag,
+.cm-s-flo-dark.CodeMirror .CodeMirror-matchingbracket
+{
+  text-decoration: none;
+  color: #2ee25e;
+}
+
+.cm-s-flo-dark.CodeMirror .CodeMirror-nonmatchingbracket,
+.CodeMirror.cm-s-flo-dark .CodeMirror-nonmatchingtag.cm-tag
+{ color: #dc322f; }
+
+/*<!--search-->*/
+.cm-s-flo-dark.CodeMirror .CodeMirror-searching.CodeMirror-selectedtext.cm-matchhighlight {
+  background-color: #486f7c;
+  /* rgba(99, 99, 99, 0.7);*/
+  /*border: 1px dotted #202325;*/
+}
+.cm-s-flo-dark.CodeMirror .CodeMirror-searching{
+  background: #a2a2a2;
+}
+
+/*<!--activeline-->*/
+.cm-s-flo-dark.CodeMirror .CodeMirror-activeline-background,
+.cm-s-flo-dark.CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt,
+.cm-s-flo-dark.CodeMirror .CodeMirror-activeline .CodeMirror-linenumber {
+  background: #202325 !important; 
+  
+}
+
+.cm-s-flo-dark.CodeMirror .CodeMirror-activeline-background {
+  border: none; 
+  outline: none; 
+  z-index: 2;
+}
+
+.cm-s-flo-dark.CodeMirror {
+  background: #26292C;
+  color: #BBBCBD;
+}
+
+.cm-s-flo-dark.CodeMirror div.CodeMirror-selected {background: rgba(195, 220, 255, 0.30);}
+.cm-s-flo-dark.CodeMirror .CodeMirror-gutters {background: #26292C; border-right: none;}
+.cm-s-flo-dark.CodeMirror .CodeMirror-linenumber {color: #73797b; padding-right: 10px;}
+.cm-s-flo-dark.CodeMirror .CodeMirror-cursor {
+  border-left: 1px solid #BDAE9D !important;
+}
+
+.cm-s-flo-dark.CodeMirror span.cm-comment {color: #bec8ce;}
+.cm-s-flo-dark.CodeMirror span.cm-atom {color: #C5656B;}
+.cm-s-flo-dark.CodeMirror span.cm-number {color: #44AA43;}
+
+.cm-s-flo-dark.CodeMirror span.cm-qualifier {color: #f5d055;}
+.cm-s-flo-dark.CodeMirror span.cm-builtin {color: #FF9358;}
+
+.cm-s-flo-dark.CodeMirror span.cm-operator {color: #FF9358;}
+.cm-s-flo-dark.CodeMirror span.cm-punctuation {color: #a0cae6;}
+
+.cm-s-flo-dark.CodeMirror span.cm-property {color: #A6E22E;}
+.cm-s-flo-dark.CodeMirror span.cm-punctuation {color: #D1EDFF;}
+
+.cm-s-flo-dark.CodeMirror span.cm-property {color: #A6E22E;}
+.cm-s-flo-dark.CodeMirror span.cm-attribute {color: #A6E22E;}
+.cm-s-flo-dark.CodeMirror span.cm-keyword {color: #43A8ED;}
+.cm-s-flo-dark.CodeMirror span.cm-string {color: #049B0A;}
+.cm-s-flo-dark.CodeMirror span.cm-string-2 {color: #a0cae6;}
+.cm-s-flo-dark.CodeMirror span.cm-property.cm-string {color: #a0cae6;}
+
+.cm-s-flo-dark.CodeMirror span.cm-variable {color: #f5d055;}
+.cm-s-flo-dark.CodeMirror span.cm-variable-2 {color: #EDEF7D;}
+.cm-s-flo-dark.CodeMirror span.cm-def {color: #FF9358;}
+.cm-s-flo-dark.CodeMirror span.cm-error {background: #D8290D; color: #F8F8F8;}
+.cm-s-flo-dark.CodeMirror span.cm-bracket {color: #D1EDFF;}
+.cm-s-flo-dark.CodeMirror span.cm-tag {color: #43A8ED; font-style: italic;}
+.cm-s-flo-dark.CodeMirror span.cm-link {color: #AE81FF;}
+
+.cm-s-flo-dark.CodeMirror span.cm-header {font-size: 1.5em;}
+.cm-s-flo-dark.CodeMirror span.cm-strong {font-weight: bold;}
+.cm-s-flo-dark.CodeMirror span.cm-em {font-style: italic;}
+
+
+
+.typ { color: #318495; }
+.atn { color: #606; }
+.atv { color: #080; }
+.dec { color: #606; }
+
+/* Indent guides */
+.cm-s-flo-dark .cm-lkcampbell-indent-guides::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  height: 2.4ex;
+  width: 1px;
+  background-color: transparent;
+  border-left: #73797b dotted 1px;
+}
+
+.sidebar-selection-triangle.triangle-visible::before {
+  border-left-color: #73797b;
+}
+.sidebar-selection-triangle {
+  background: #73797B;
+}
+.sidebar-selection {
+  background: #73797B;
+}
+
+/* Widget custom : Color only;  */
+.inline-widget {
+}
+.color-editor aside header .large-swatches {
+}
+.color-editor aside ul.swatches li .swatch-bg .swatch {
+}
+.color-editor aside ul.swatches li .value {
+}
+
+.divider-holder .divider {
+}
