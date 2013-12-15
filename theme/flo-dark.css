@@ -6,9 +6,9 @@
 
 /*<!--match-->*/
 .cm-s-flo-dark.CodeMirror .CodeMirror-matchhighlight { background: #494949 }
-.cm-s-flo-dark.CodeMirror .cm-s-flo-dark .CodeMirror-focused .CodeMirror-matchhighlight { background: #C3DCFF !important; }
-.CodeMirror.cm-s-flo-dark .CodeMirror-matchingtag,
-.CodeMirror.cm-s-flo-dark .CodeMirror-matchingtag.cm-tag,
+.cm-s-flo-dark.CodeMirror .CodeMirror-focused .CodeMirror-matchhighlight { background: #C3DCFF !important; }
+.cm-s-flo-dark.CodeMirror .CodeMirror-matchingtag,
+.cm-s-flo-dark.CodeMirror .CodeMirror-matchingtag.cm-tag,
 .cm-s-flo-dark.CodeMirror .CodeMirror-matchingbracket
 {
   text-decoration: none;
@@ -16,7 +16,7 @@
 }
 
 .cm-s-flo-dark.CodeMirror .CodeMirror-nonmatchingbracket,
-.CodeMirror.cm-s-flo-dark .CodeMirror-nonmatchingtag.cm-tag
+.cm-s-flo-dark.CodeMirror .CodeMirror-nonmatchingtag.cm-tag
 { color: #dc322f; }
 
 /*<!--search-->*/
